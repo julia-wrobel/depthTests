@@ -1,0 +1,15 @@
+Package: depthTests
+Title: Nonparametric Tests for Images based on Band Depth
+Version: 0.1.0
+Authors@R: c(
+    person("Julia", "Wrobel", role = c("aut", "cre"), email = "jw3134@cumc.columbia.edu")
+    )
+Description: This package contains functions for implementing nonparametric
+    hypothesis tests on functional data using multivariate band depth. The
+    motivating application is for 2D PET images.
+Depends:
+    R (>= 3.3.1)
+License: GPL (>= 2)
+Encoding: UTF-8
+LazyData: true/Users/juliawrobel/depthTests/DESCRIPTION
+RoxygenNote: 5.0.1
