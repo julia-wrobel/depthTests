@@ -1,6 +1,6 @@
 # depthTests
 
-[![](https://travis-ci.org/refunders/refund.shiny.svg?branch=master)](https://travis-ci.org/refunders/refund.shiny)
+[![](https://travis-ci.org/julia-wrobel/depthTests.svg?branch=master)](https://travis-ci.org/julia-wrobel/depthTests)
 
 ## Nonparametric hypothesis tests based on multivariate band depth.
 
