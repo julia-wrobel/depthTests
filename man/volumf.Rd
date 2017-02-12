@@ -13,6 +13,6 @@ volumf(Data)
 This function will compute a dispersion measure for a sample of functions/images
 }
 \author{
-Julia Wrobel \email{jw3134@cumc.columbia.edu}
+Sara Lopez-Pintado \email{sl2929@columbia.edu}
 }
 

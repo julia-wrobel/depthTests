@@ -17,6 +17,6 @@ permutationTestdisp(controlData, testData, n_perm)
 This function takes a a control and a test dataset and permforms a permutation test for dispersion
 }
 \author{
-Julia Wrobel \email{jw3134@cumc.columbia.edu}
+Sara Lopez-Pintado \email{sl2929@columbia.edu}
 }
 

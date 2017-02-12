@@ -5,7 +5,7 @@
 #' @param testData Data for test subjects, each column must be a subject
 #' @param n_perm number of permutations to run
 #' 
-#' @author Julia Wrobel \email{jw3134@@cumc.columbia.edu}
+#' @author Sara Lopez-Pintado \email{sl2929@@columbia.edu}
 #' 
 #' @export permutationTestdisp
 #' 

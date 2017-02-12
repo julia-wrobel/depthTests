@@ -2,4 +2,9 @@
 
 export(permutationTest)
 export(permutationTestdisp)
+export(rankSumTest)
 export(simulateBrains)
+importFrom(stats,rnorm)
+importFrom(stats,runif)
+importFrom(stats,wilcox.test)
+importFrom(utils,combn)

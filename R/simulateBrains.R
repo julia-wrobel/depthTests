@@ -9,6 +9,8 @@
 #' @param muScale A constant multiplier which scales the mean image.
 #' @param muShift A constant for shifting the mean image.
 #' @param varscale A constant multiplier for increasing the variance of all eigenvalues
+#' 
+#' @importFrom stats rnorm
 #' @author Julia Wrobel \email{jw3134@@cumc.columbia.edu}
 #' 
 #' @export simulateBrains

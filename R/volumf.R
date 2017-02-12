@@ -3,7 +3,8 @@
 #' This function will compute a dispersion measure for a sample of functions/images
 #' @param Data A matrix of functions where each row is an observed function/image
 #' 
-#' @author Julia Wrobel \email{jw3134@@cumc.columbia.edu}
+#' @importFrom utils combn
+#' @author Sara Lopez-Pintado \email{sl2929@@columbia.edu}
 #' 
 volumf<-function(Data){
   

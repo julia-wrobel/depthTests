@@ -17,6 +17,7 @@ permutationTest(controlData, testData, n_perm)
 This function takes a PCA decomposition of a PET dataset and simulates new images.
 }
 \author{
+Sara Lopez-Pintado \email{sl2929@columbia.edu},
 Julia Wrobel \email{jw3134@cumc.columbia.edu}
 }
 
