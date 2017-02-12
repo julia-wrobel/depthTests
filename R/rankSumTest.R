@@ -4,7 +4,7 @@
 #' @param controlData Data for control subjects, each column must be a subject
 #' @param testData Data for test subjects, each column must be a subject
 #' @param n Edit this documentation
-#' @param m Edit this documentation
+#' @param m Edit this documentation!
 #' 
 #' @importFrom stats runif wilcox.test
 #' @author Sara Lopez-Pintado \email{sl2929@@columbia.edu}

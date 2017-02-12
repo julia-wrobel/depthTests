@@ -13,7 +13,7 @@ rankSumTest(controlData, testData, n, m)
 
 \item{n}{Edit this documentation}
 
-\item{m}{Edit this documentation}
+\item{m}{Edit this documentation!}
 }
 \description{
 This function samples the reference group several times and gets the average p-value of the rank test.
