@@ -1,7 +1,9 @@
 #' A function for simulating PET data
 #'
 #' This function takes a PCA decomposition of a PET dataset and simulates new images.
-#' @param PCAobject The PCA breakdown of either your test or control data
+#' @param PCAobject The PCA breakdown of either your test or control data. Needs to be formatted as a list with eigenvalues as evalues,
+#' eigenvectors as 'efunctions'
+#' @param npixels The number of pixels in your original image. Defaults to 7505, the number of pixels in provided pet2D data.
 #' @param npc Number of principal components to use for simulating data. Defaults to NULL.
 #' @param pve Percent Variance explained by PCA decomposition. Defaults to 0.95.
 #' @param nsubjs The number of images you want to simulate.
@@ -17,9 +19,10 @@
 #' 
 #' 
 
-simulateBrains = function(PCAobject, npc = NULL, pve = 0.95, nsubjs = 30, scoreMean = 0, muScale = 1, 
+simulateBrains = function(PCAobject, npixels = 7505, npc = NULL, pve = 0.95, nsubjs = 30, scoreMean = 0, muScale = 1, 
                           muShift = 0,varscale=1){
-  npixels = dim(PCAobject$CovMat)[1]
+  
+  
   npc = ifelse(is.null(npc), min(which(cumsum(PCAobject$evalues)/sum(PCAobject$evalues) > pve)), npc) 
   
   evalues = PCAobject$evalues[1:npc]

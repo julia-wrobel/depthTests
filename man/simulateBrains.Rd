@@ -4,11 +4,14 @@
 \alias{simulateBrains}
 \title{A function for simulating PET data}
 \usage{
-simulateBrains(PCAobject, npc = NULL, pve = 0.95, nsubjs = 30,
-  scoreMean = 0, muScale = 1, muShift = 0, varscale = 1)
+simulateBrains(PCAobject, npixels = 7505, npc = NULL, pve = 0.95,
+  nsubjs = 30, scoreMean = 0, muScale = 1, muShift = 0, varscale = 1)
 }
 \arguments{
-\item{PCAobject}{The PCA breakdown of either your test or control data}
+\item{PCAobject}{The PCA breakdown of either your test or control data. Needs to be formatted as a list with eigenvalues as evalues,
+eigenvectors as 'efunctions'}
+
+\item{npixels}{The number of pixels in your original image. Defaults to 7505, the number of pixels in provided pet2D data.}
 
 \item{npc}{Number of principal components to use for simulating data. Defaults to NULL.}
 
