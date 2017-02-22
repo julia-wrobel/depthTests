@@ -19,9 +19,17 @@ principal components analysis (PCA). The data provided here are rebuilt from the
 decomposition, along with randomly generated subject-specific scores.
 }
 \examples{
+
+\dontrun{
+
+##### Convert 1st subject back to 95 x 79 pixel image 
 data(pet2D)
 image1 = matrix(pet2D[, 1], nrow = 95, ncol = 79)
 image(image1)
+}
+
+       
+##### 
 }
 \references{
 Parsey et al (2006).

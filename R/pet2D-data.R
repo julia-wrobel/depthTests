@@ -21,9 +21,18 @@
 ##'
 ##'  @keywords datasets
 ##'  
-##' @examples
+
+#' @examples
+#' 
+#' \dontrun{
+##' 
+##' ##### Convert 1st subject back to 95 x 79 pixel image 
 #' data(pet2D)
 #' image1 = matrix(pet2D[, 1], nrow = 95, ncol = 79)
 #' image(image1)
+#' }
+#' 
+#'        
+#' ##### 
 
 "pet2D"
