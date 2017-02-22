@@ -2,7 +2,7 @@
 #'
 #' This function takes a PCA decomposition of a PET dataset and simulates new images.
 #' @param PCAobject The PCA breakdown of either your test or control data. Needs to be formatted as a list with eigenvalues as evalues,
-#' eigenvectors as 'efunctions'
+#' eigenvectors as 'efunctions', and mean vector as 'mean'
 #' @param npixels The number of pixels in your original image. Defaults to 7505, the number of pixels in provided pet2D data.
 #' @param npc Number of principal components to use for simulating data. Defaults to NULL.
 #' @param pve Percent Variance explained by PCA decomposition. Defaults to 0.95.

@@ -9,7 +9,7 @@ simulateBrains(PCAobject, npixels = 7505, npc = NULL, pve = 0.95,
 }
 \arguments{
 \item{PCAobject}{The PCA breakdown of either your test or control data. Needs to be formatted as a list with eigenvalues as evalues,
-eigenvectors as 'efunctions'}
+eigenvectors as 'efunctions', and mean vector as 'mean'}
 
 \item{npixels}{The number of pixels in your original image. Defaults to 7505, the number of pixels in provided pet2D data.}
 
