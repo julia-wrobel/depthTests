@@ -4,7 +4,7 @@
 \alias{permutationTestdisp}
 \title{A permutation test for testing dispersion}
 \usage{
-permutationTestdisp(controlData, testData, n_perm, pr)
+permutationTestdisp(controlData, testData, n_perm, pr, var)
 }
 \arguments{
 \item{controlData}{Data for control subjects, each column must be a subject}
@@ -14,6 +14,8 @@ permutationTestdisp(controlData, testData, n_perm, pr)
 \item{n_perm}{number of permutations to run}
 
 \item{pr}{ask Sara}
+
+\item{var}{ask Sara}
 }
 \description{
 This function takes a a control and a test dataset and permforms a permutation test for dispersion
